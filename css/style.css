@@ -35,6 +35,10 @@ header {
   position: relative;
 }
 
+.headerColor-default {
+  background-color: #112d93;
+}
+
 .header_logo {
   text-align: center;
 }
@@ -60,9 +64,11 @@ header {
 .language {
   margin-top: -10px;
   width: 100%;
+  height: 29px;
   text-align: right;
   font-size: 12px;
   margin: 0;
+  background-color: #f1f1f1;
 }
 
 .language li {
@@ -73,7 +79,7 @@ header {
 .language a {
   text-decoration: none;
   padding: 10px;
-  color: #fff;
+  color: #f1f1f1;
   background-color: #011d85;
   font-family: ヒラギノ角ゴ Pro;
   letter-spacing: 0.3em;
@@ -89,7 +95,7 @@ header {
 }
 
 .language .twitter a {
-  background-color: #fff;
+  background-color: #f1f1f1;
   color: #011d85;
   font-size: 18px;
 }
@@ -122,6 +128,12 @@ nav {
   height: 72px;
 }
 
+@media screen and (max-width: 700px) {
+  nav {
+    padding-top: 10px;
+  }
+}
+
 .logo {
   font-family: 'Archivo Narrow';
   font-weight: 600;
@@ -136,6 +148,7 @@ nav {
 @media screen and (max-width: 950px) {
   .logo {
     margin-left: 10px;
+    margin-top: 2px;
   }
 }
 
@@ -205,7 +218,8 @@ nav {
 
 /* ----------- spnavi -----------*/
 .sp_navi {
-  padding-right: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
   font-size: 30px;
 }
 
@@ -262,6 +276,13 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .cover {
+    margin-top: -5px;
+    height: 82vh;
+  }
 }
 
 .inner {
@@ -328,6 +349,13 @@ main {
   padding-top: 150px;
 }
 
+@media screen and (max-width: 700px) {
+  #bio {
+    margin-top: -90px;
+    padding-top: 90px;
+  }
+}
+
 .bio {
   margin-top: 80px;
   width: 100%;
@@ -338,6 +366,12 @@ main {
   max-width: 940px;
   height: auto;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    margin: 0 10px;
+  }
 }
 
 .content .text {
@@ -423,7 +457,8 @@ main {
 
 @media (max-width: 500px) {
   .information {
-    padding-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 40px;
   }
 }
@@ -459,8 +494,10 @@ main {
 
 .bio2 {
   width: 100%;
-  padding: 80px 0;
+  padding: 80px 10px;
   background-color: #f0f0f0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .bio2 h5 {
@@ -492,6 +529,13 @@ span {
   padding-top: 150px;
 }
 
+@media screen and (max-width: 700px) {
+  #research {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
+}
+
 .research_interest {
   width: 100%;
   height: auto;
@@ -503,6 +547,12 @@ span {
   padding-bottom: 100px;
 }
 
+@media screen and (max-width: 700px) {
+  .research_interest {
+    background-image: url(../img/research_sp.jpg);
+  }
+}
+
 .research_topics {
   width: 100%;
   height: auto;
@@ -511,6 +561,12 @@ span {
   background-position: bottom left;
   background-repeat: no-repeat;
   padding-bottom: 120px;
+}
+
+@media screen and (max-width: 700px) {
+  .research_topics {
+    background-image: url(../img/research2_sp.jpg);
+  }
 }
 
 .topic {
@@ -529,6 +585,13 @@ span {
 #publication2 {
   margin-top: -150px;
   padding-top: 150px;
+}
+
+@media screen and (max-width: 700px) {
+  #publication2 {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
 }
 
 .publication {
@@ -571,6 +634,13 @@ span {
 #people {
   margin-top: -130px;
   padding-top: 130px;
+}
+
+@media screen and (max-width: 700px) {
+  #people {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
 }
 
 .people {
@@ -657,6 +727,13 @@ span {
   padding-top: 150px;
 }
 
+@media screen and (max-width: 700px) {
+  #news {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
+}
+
 .news {
   width: 100%;
   padding-bottom: 150px;
@@ -735,6 +812,13 @@ span {
   padding-top: 260px;
 }
 
+@media screen and (max-width: 700px) {
+  #get {
+    margin-top: -190px;
+    padding-top: 190px;
+  }
+}
+
 .get {
   width: 100%;
   background-image: url(../img/get_involved.jpg);
@@ -771,6 +855,13 @@ span {
 #contact {
   margin-top: -130px;
   padding-top: 130px;
+}
+
+@media screen and (max-width: 700px) {
+  #contact {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
 }
 
 .contact {
