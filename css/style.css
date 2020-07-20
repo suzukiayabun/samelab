@@ -35,10 +35,6 @@ header {
   position: relative;
 }
 
-.headerColor-default {
-  background-color: #112d93;
-}
-
 .header_logo {
   text-align: center;
 }
@@ -232,7 +228,7 @@ nav {
 .sp_navi_li {
   width: 100%;
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 0%;
   border: 1px solid #eee;
   background: white;
@@ -250,7 +246,7 @@ nav {
 
 .sp_navi_li li a {
   display: block;
-  padding: 30px 8px;
+  padding: 6vh 8px;
   border-bottom: 1px solid #eee;
   font-size: 14px;
   text-decoration: none;
